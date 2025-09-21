@@ -1,58 +1,12 @@
-# Kodnerds Junior Dev Challenge – Task 1 (Frontend)
+# React + Vite
 
-Welcome to the **Kodnerds Junior Dev Challenge – Frontend Track**.  
-This is your first qualification task. Please read the instructions carefully.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## Task Details
-- **UI Design:** Attached to your email.
-- **Data Link:** link sent to your email
-- **Duration:** 72 hours from when you received the mail.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-You are required to:
-1. Fork this repository.
-2. Set up a frontend project **from scratch** using **any stack of your choice**  
-   (React, Vue, Angular, Svelte, or vanilla JavaScript – your decision).
-3. Recreate the given UI using the design file.
-4. Fetch and display the data provided in the link.
+## Expanding the ESLint configuration
 
----
-
-##  Project Structure
-- Place your project inside:  
-  `submissions/<your-name>/`
-
-Example:submissions/blessing-frontend/
-Inside your folder, include:
-- Your project source code.
-- A `README.md` file with:
-  - How to run your project.
-  - Features you implemented.
-  - Where AI tools were used (if any).
-  - Challenges faced & how you solved them.
-
----
-
-##  Tech Freedom
-You are free to choose any frontend framework, libraries, or styling tools you prefer.  
-We want to see **how you set things up**, not just the final result.
-
----
-
-##  Submission Instructions
-- Create a new branch: `firstname-frontend` (e.g., `blessing-frontend`).
-- Commit your work inside `submissions/<your-name>/`.
-- Push your branch and create a **Pull Request** to this repository.
-- **Deadline:** 72 hours from when you got the email.
-
-Late submissions will **not** be considered.
-
----
-
-## ⚡ Important Notes
-- Document any **AI usage** in your README file.
-- Clean, readable code will be scored higher.
-- Ensure your app runs locally with minimal setup steps.
-
-Good luck! 
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
